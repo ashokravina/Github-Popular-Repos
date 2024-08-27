@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.filter-container {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.button {
+  background-color: #ffffff;
+  outline: none;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.button-change-method {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid #0284c7;
+  border-radius: 15px;
+  background-color: transparent;
+  min-width: 60px;
+  min-height: 35px;
+  color: #0284c7;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .filter-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .button-change-method {
+    font-size: 16px;
+    min-height: 30px;
+    min-width: 50px;
+  }
+}
